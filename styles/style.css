@@ -13,7 +13,7 @@
   min-height: 800px;
 }
 .promo__title {
-  margin-top: 10px;
+  margin: 10px 0 25px 0;
   font-weight: 900;
   font-size: 48px;
   line-height: 60px;
@@ -34,6 +34,9 @@
   font-weight: 700;
   font-size: 14px;
   line-height: 21px;
+}
+.button:hover {
+  color: darkgray;
 }
 .button_active {
   background: #FFA501;
