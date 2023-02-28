@@ -26,4 +26,17 @@
   color: #000000;
 }
 
+.button {
+  width: 135px;
+  height: 45px;
+  background: none;
+  border: none;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+}
+.button_active {
+  background: #FFA501;
+}
+
 /*# sourceMappingURL=style.css.map */
