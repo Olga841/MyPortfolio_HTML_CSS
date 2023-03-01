@@ -85,5 +85,17 @@
 .about__list {
   display: flex;
 }
+.about__item_img {
+  display: block;
+}
+.about__item_header {
+  font-weight: 700;
+  font-size: 14px;
+}
+.about__item_descr {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
 
 /*# sourceMappingURL=style.css.map */
