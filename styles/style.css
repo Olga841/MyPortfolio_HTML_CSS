@@ -77,5 +77,10 @@
 .about__descr {
   width: 570px;
 }
+.about__text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 21px;
+}
 
 /*# sourceMappingURL=style.css.map */
