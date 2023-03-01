@@ -20,10 +20,23 @@
   color: #000000;
 }
 .promo__subtitle {
+  position: relative;
+  padding-left: 10px;
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
   color: #000000;
+}
+.promo__subtitle:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -25%;
+  z-index: -1;
+  background-color: #FFA501;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
 }
 
 .button {
