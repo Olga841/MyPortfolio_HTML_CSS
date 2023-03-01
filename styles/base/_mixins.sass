@@ -9,3 +9,13 @@
     width: 36px
     height: 36px
     border-radius: 100%
+
+@mixin after_line
+  &:after
+    content: ''
+    position: absolute
+    top: 110%
+    left: 0
+    background-color: $main_color
+    width: 60px
+    height: 4px
