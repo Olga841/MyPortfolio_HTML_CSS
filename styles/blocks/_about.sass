@@ -1,6 +1,14 @@
 .about
   padding: 120px 0
   min-height: 840px
+  &__subtitle
+    position: relative
+    padding-left: 10px
+    @include before_circle
+  &__title
+    position: relative
+    margin-top: 20px
+    @include after_line
   &__wrapper
     display: flex
   &__img
@@ -11,13 +19,16 @@
   &__descr
     width: 570px
   &__text
+    margin-top: 30px
     font-weight: 500
     font-size: 14px
     line-height: 21px
   &__list
     display: flex
   &__item
+    position: relative
     &_img
+      @include before_circle
       display: block
     &_header
       font-weight: 700
