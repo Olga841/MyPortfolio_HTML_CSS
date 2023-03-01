@@ -65,5 +65,10 @@
   padding: 120px 0;
   min-height: 840px;
 }
+.about__wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
 
 /*# sourceMappingURL=style.css.map */
