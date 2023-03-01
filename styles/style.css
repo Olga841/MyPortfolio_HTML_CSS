@@ -82,5 +82,8 @@
   font-size: 14px;
   line-height: 21px;
 }
+.about__list {
+  display: flex;
+}
 
 /*# sourceMappingURL=style.css.map */
