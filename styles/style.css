@@ -14,18 +14,10 @@
 }
 .promo__title {
   margin: 10px 0 25px 0;
-  font-weight: 900;
-  font-size: 48px;
-  line-height: 60px;
-  color: #000000;
 }
 .promo__subtitle {
   position: relative;
   padding-left: 10px;
-  font-weight: 700;
-  font-size: 16px;
-  line-height: 24px;
-  color: #000000;
 }
 .promo__subtitle:before {
   content: "";
@@ -53,6 +45,20 @@
 }
 .button_active {
   background: #FFA501;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 60px;
+  color: #000000;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  color: #000000;
 }
 
 /*# sourceMappingURL=style.css.map */
