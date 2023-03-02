@@ -20,20 +20,28 @@
     width: 570px
   &__text
     margin-top: 30px
+    margin-bottom: 40px
     font-weight: 500
     font-size: 14px
     line-height: 21px
   &__list
     display: flex
+    flex-wrap: wrap
+    gap: 20px
   &__item
     position: relative
-    &_img
+    display: flex
+    width: 260px
+    &_img-container
+      position: relative
       @include before_circle
-      display: block
+      padding-left: 15px
+    &_descr
+      margin-left: 20px
     &_header
       font-weight: 700
       font-size: 14px
-    &_descr
+    &_text
       font-weight: 500
       font-size: 12px
       line-height: 18px
