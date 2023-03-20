@@ -1,9 +1,21 @@
 .promo
+  position: relative
+  background: url('../../images/main_bg.jpg') center center/cover no-repeat
   padding: 206px 0 362px 0
-  min-height: 800px
+  height: 800px
+  &__container
+    display: flex
+  &__descr
+    z-index: 10
+    width: 500px
+    margin-right: 150px
   &__title
     margin: 10px 0 25px 0
+    color: cornsilk
   &__subtitle
     position: relative
     padding-left: 10px
     @include before_circle
+    color: cornsilk
+  &__button
+    color: cornsilk
