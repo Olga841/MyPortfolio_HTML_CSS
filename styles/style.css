@@ -76,7 +76,7 @@
 .about__img {
   display: block;
   margin-right: 70px;
-  width: 400px;
+  width: auto;
   height: 600px;
 }
 .about__descr {
