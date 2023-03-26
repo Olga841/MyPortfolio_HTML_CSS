@@ -1,4 +1,7 @@
 * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
   font-family: "Poppins", sans-serif;
   font-style: normal;
 }
@@ -36,6 +39,13 @@
   font-weight: 700;
   font-size: 16px;
   line-height: 24px;
+  color: #000000;
+}
+
+.column-title {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 30px;
   color: #000000;
 }
 
@@ -202,6 +212,94 @@
   top: -6px;
   left: 50%;
   transform: translateX(-50%);
+}
+.experience__wrapper {
+  padding: 60px 65px;
+  display: grid;
+  grid-template-columns: repeat(2, 425px);
+  column-gap: 135px;
+}
+.experience__column-title {
+  position: relative;
+  padding-left: 35px;
+}
+.experience__column-title:before {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: -6px;
+  width: 15px;
+  height: 15px;
+  border-radius: 100%;
+  background: #ed1e2b;
+}
+.experience__column ul {
+  list-style-type: none;
+}
+.experience__column ul li {
+  position: relative;
+  display: block;
+}
+.experience__column ul li:after {
+  content: "";
+  position: absolute;
+  width: 1px;
+  height: calc(100% + 12px);
+  left: 1px;
+  top: -12px;
+  background: #000;
+}
+.experience__item {
+  position: relative;
+}
+.experience__item:before {
+  content: "";
+  position: absolute;
+  top: 58px;
+  left: 3px;
+  width: 44px;
+  height: 1px;
+  background: #000;
+}
+.experience__item-head {
+  position: relative;
+  padding: 45px 0 0 100px;
+  margin: 0;
+}
+.experience__item-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  color: #000000;
+}
+.experience__item-location, .experience__item-body {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+}
+.experience__item-body {
+  padding: 12px 0 0 45px;
+}
+.experience__item-icon {
+  position: absolute;
+  top: 50%;
+  left: 46px;
+}
+.experience__item-icon:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -17%;
+  z-index: -1;
+  background-color: #ed1e2b;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+}
+.experience__item-icon img {
+  position: absolute;
+  top: 15px;
+  left: 15px;
 }
 
 /*# sourceMappingURL=style.css.map */
