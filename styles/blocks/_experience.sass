@@ -14,3 +14,71 @@
       top: -6px
       left: 50%
       transform: translateX(-50%)
+  &__wrapper
+    padding: 60px 65px
+    display: grid
+    grid-template-columns: repeat(2, 425px)
+    column-gap: 135px
+  &__column
+    &-title
+      position: relative
+      padding-left: 35px
+      &:before
+        content: ''
+        position: absolute
+        top: 5px
+        left: -6px
+        width: 15px
+        height: 15px
+        border-radius: 100%
+        background: $main_color
+    ul
+      list-style-type: none
+      li
+        position: relative
+        display: block
+        &:after
+          content: ''
+          position: absolute
+          width: 1px
+          height: calc(100% + 12px)
+          left: 1px
+          top: -12px
+          background: #000
+  &__item
+    position: relative
+    &:before
+      content: ""
+      position: absolute
+      top: 58px
+      left: 3px
+      width: 44px
+      height: 1px
+      background: #000
+    &-head
+      position: relative
+      padding: 45px 0 0 100px
+      margin: 0
+    &-title
+      font-weight: 700
+      font-size: 14px
+      line-height: 21px
+      color: #000000
+    &-location, &-body
+      font-weight: 500
+      font-size: 12px
+      line-height: 18px
+    &-body
+      padding: 12px 0 0 45px
+    &-icon
+      position: absolute
+      top: 50%
+      left: 46px
+      @include before_circle
+      img
+        position: absolute
+        top: 15px
+        left: 15px
+
+
+
