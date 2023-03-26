@@ -28,6 +28,7 @@
   font-weight: 700;
   font-size: 48px;
   line-height: 60px;
+  padding: 10px;
   color: #000000;
 }
 
@@ -163,6 +164,44 @@
 }
 .promo__button {
   color: cornsilk;
+}
+
+.experience__title {
+  position: relative;
+  text-align: center;
+}
+.experience__title:after {
+  content: "";
+  position: absolute;
+  top: 110%;
+  left: 0;
+  background-color: #ed1e2b;
+  width: 60px;
+  height: 4px;
+}
+.experience__title:after {
+  left: 50%;
+  transform: translateX(-50%);
+}
+.experience__subtitle {
+  position: relative;
+  text-align: center;
+}
+.experience__subtitle:before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: -17%;
+  z-index: -1;
+  background-color: #ed1e2b;
+  width: 36px;
+  height: 36px;
+  border-radius: 100%;
+}
+.experience__subtitle:before {
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 /*# sourceMappingURL=style.css.map */
