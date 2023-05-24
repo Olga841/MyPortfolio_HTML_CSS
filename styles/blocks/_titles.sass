@@ -14,3 +14,28 @@
   font-size: 20px
   line-height: 30px
   color: #000000
+.center
+  &__title
+    font-weight: 700
+    font-size: 48px
+    line-height: 60px
+    padding: 10px
+    color: #000000
+    position: relative
+    text-align: center
+    @include after_line
+    &:after
+      left: 50%
+      transform: translateX(-50%)
+  &__subtitle
+    position: relative
+    text-align: center
+    font-weight: 700
+    font-size: 16px
+    line-height: 24px
+    color: #000000
+    @include before_circle
+    &:before
+      top: -6px
+      left: 50%
+      transform: translateX(-50%)
