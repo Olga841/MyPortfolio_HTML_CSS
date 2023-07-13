@@ -10,6 +10,30 @@
     height: 36px
     border-radius: 100%
 
+@mixin before_circle_about
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    top: -10%
+    z-index: -1
+    background-color: $main_color
+    width: 36px
+    height: 36px
+    border-radius: 100%
+
+@mixin before_circle_price
+  &:before
+    content: ""
+    position: absolute
+    left: 0
+    top: 0
+    z-index: -1
+    background-color: $main_color
+    width: 15px
+    height: 15px
+    border-radius: 100%
+
 @mixin after_line
   &:after
     content: ''
