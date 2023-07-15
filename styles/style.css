@@ -461,12 +461,12 @@
 .portfolio__item_3 {
   grid-column: 3/4;
   grid-row: 1/2;
-  background: url("../../images/portfolio/pulse.jpg") center center/cover no-repeat;
+  background: url("../../images/portfolio/asp.jpg") left center/cover no-repeat;
 }
 .portfolio__item_4 {
   grid-column: 4/5;
   grid-row: 1/3;
-  background: url("../../images/portfolio/pulse.jpg") center center/cover no-repeat;
+  background: url("../../images/portfolio/wordpress.jpg") center center/cover no-repeat;
 }
 .portfolio__item_5 {
   grid-column: 1/2;
