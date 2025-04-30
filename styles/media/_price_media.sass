@@ -1,0 +1,35 @@
+.price
+  padding: 70px 0 120px 0
+  &__subtitle
+    @include after_line
+    &:after
+      top: 50px
+      left: 50%
+      transform: translateX(-50%)
+  &__wrapper
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    padding-top: 90px
+    column-gap: 300px
+    row-gap: 30px
+  &__item
+    position: relative
+    min-width: 365px
+    padding-left: 30px
+    @include before_circle_price
+    &:after
+      width: 15px
+      height: 15px
+  &__block
+    font-size: 14px
+    font-style: normal
+    font-weight: 700
+    display: flex
+    justify-content: space-between
+    padding-bottom: 5px
+  &__desc
+    font-size: 12px
+    font-style: normal
+    font-weight: 500
+    line-height: normal

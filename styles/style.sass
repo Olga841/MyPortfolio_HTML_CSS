@@ -7,9 +7,17 @@
   font-family: 'Poppins', sans-serif
   font-style: normal
 
+html  
+  width: 100%
+  height: 100%
+
 .container
   width: 1140px
   margin: 0 auto
+  @media (max-width: 768px)
+    width: 600px
+  @media (max-width: 480px)
+    width: 300px
 
 
 @import "blocks/buttons"
@@ -23,3 +31,14 @@
 @import "blocks/portfolio"
 @import "blocks/price"
 @import "blocks/contacts"
+@import "media/promo"
+@import "media/about"
+@import "media/buttons"
+@import "media/contacts"
+@import "media/experience"
+@import "media/skills"
+@import "media/scales"
+@import "media/sidepanel"
+@import "media/titles"
+@import "media/portfolio"
+

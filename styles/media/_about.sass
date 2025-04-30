@@ -1,0 +1,37 @@
+.about
+  @media (max-width: 768px)
+    padding: 60px 0
+    min-height: auto
+    &__title
+      font-size: 24px
+      position: relative
+      margin-top: 0
+      @include after_line
+    &__wrapper
+      display: flex
+      flex-wrap: wrap
+    &__img
+      display: none
+    &__descr
+      width: 100%
+    &__list
+      flex-wrap: nowrap
+      gap: 20px
+    &__item
+      position: relative
+      display: flex
+      max-width: 260px
+  @media (max-width: 480px)
+    padding: 40px 0
+    min-height: auto
+    &__title
+      font-size: 18px
+    &__descr
+      width: 100%
+    &__list
+      flex-wrap: wrap
+      gap: 20px
+
+
+
+
