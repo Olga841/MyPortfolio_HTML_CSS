@@ -188,7 +188,7 @@
 
 .promo {
   position: relative;
-  background: url("../../images/main.jpg") center center/cover no-repeat;
+  background: url("../images/main.jpg") center center/cover no-repeat;
   padding: 206px 0 362px 0;
   height: 800px;
 }
@@ -441,8 +441,8 @@
 .portfolio__wrapper {
   padding-top: 60px;
   display: grid;
-  grid-template-columns: repeat(4, 280px);
-  grid-template-rows: repeat(2, 280px);
+  grid-template-columns: repeat(3, auto);
+  grid-template-rows: repeat(3, 280px);
   gap: 5px;
 }
 .portfolio__item {
@@ -451,32 +451,47 @@
 .portfolio__item_1 {
   grid-column: 1/2;
   grid-row: 1/2;
-  background: url("../../images/portfolio/uber.jpg") center center/cover no-repeat;
+  background: url("../images/portfolio/uber.jpg") center center/cover no-repeat;
 }
 .portfolio__item_2 {
-  grid-column: 2/3;
-  grid-row: 1/2;
-  background: url("../../images/portfolio/pulse.jpg") center center/cover no-repeat;
-}
-.portfolio__item_3 {
-  grid-column: 3/4;
-  grid-row: 1/2;
-  background: url("../../images/portfolio/asp.jpg") left center/cover no-repeat;
-}
-.portfolio__item_4 {
-  grid-column: 4/5;
-  grid-row: 1/3;
-  background: url("../../images/portfolio/wordpress.jpg") center center/cover no-repeat;
-}
-.portfolio__item_5 {
   grid-column: 1/2;
   grid-row: 2/3;
-  background: url("../../images/portfolio/prengi.jpg") center center/cover no-repeat;
+  background: url("../images/portfolio/pulse.jpg") center center/cover no-repeat;
+}
+.portfolio__item_3 {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background: url("../images/portfolio/asp.jpg") left center/cover no-repeat;
+}
+.portfolio__item_4 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background: url("../images/portfolio/wordpress.jpg") center center/cover no-repeat;
+}
+.portfolio__item_5 {
+  grid-column: 2/3;
+  grid-row: 2/3;
+  background: url("../images/portfolio/prengi.jpg") center center/cover no-repeat;
 }
 .portfolio__item_6 {
-  grid-column: 2/4;
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background: url("../images/portfolio/hero.jpg") center center/cover no-repeat;
+}
+.portfolio__item_7 {
+  grid-column: 3/4;
+  grid-row: 1/2;
+  background: url("../images/portfolio/amethyst.jpg") center center/cover no-repeat;
+}
+.portfolio__item_8 {
+  grid-column: 3/4;
   grid-row: 2/3;
-  background: url("../../images/portfolio/hero.jpg") center center/cover no-repeat;
+  background: url("../images/portfolio/telegram_ads.jpg") center center/cover no-repeat;
+}
+.portfolio__item_9 {
+  grid-column: 3/4;
+  grid-row: 3/4;
+  background: url("../images/portfolio/unique_umain_page.jpg") center center/cover no-repeat;
 }
 
 .price {
@@ -598,6 +613,4 @@
   margin-top: 32px;
   width: 200px;
   color: cornsilk;
-}
-
-/*# sourceMappingURL=style.css.map */
+}/*# sourceMappingURL=style.css.map */
