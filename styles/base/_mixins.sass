@@ -34,6 +34,18 @@
     height: 15px
     border-radius: 100%
 
+@mixin before_circle_portfolio
+  &:before
+    content: ""
+    position: absolute
+    right: 47%
+    top: 45%
+    z-index: -1
+    background-color: $main_color
+    width: 36px
+    height: 36px
+    border-radius: 100%
+
 @mixin after_line
   &:after
     content: ''
@@ -43,3 +55,4 @@
     background-color: $main_color
     width: 60px
     height: 4px
+

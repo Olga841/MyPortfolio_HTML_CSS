@@ -1,0 +1,50 @@
+.about
+  padding: 120px 0
+  min-height: 840px
+  &__subtitle
+    position: relative
+    padding-left: 10px
+    @include before_circle
+  &__title
+    position: relative
+    margin-top: 20px
+    @include after_line
+  &__wrapper
+    display: flex
+  &__img
+    display: block
+    margin-right: 70px
+    width: auto
+    height: 600px
+  &__descr
+    width: 570px
+  &__text
+    margin-top: 30px
+    margin-bottom: 40px
+    font-weight: 500
+    font-size: 14px
+    line-height: 21px
+  &__list
+    display: flex
+    flex-wrap: wrap
+    gap: 20px
+  &__item
+    position: relative
+    display: flex
+    width: 260px
+    &_img-container
+      position: relative
+      padding-left: 15px
+      @include before_circle_about
+    &_descr
+      margin-left: 20px
+    &_header
+      font-weight: 700
+      font-size: 14px
+      padding-bottom: 5px
+    &_text
+      font-weight: 500
+      font-size: 12px
+      line-height: 18px
+
+

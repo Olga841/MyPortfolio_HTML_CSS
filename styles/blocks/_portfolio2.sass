@@ -1,0 +1,50 @@
+
+.portfolio
+  padding: 100px 0 70px 0
+  min-height: 600px
+  &__container
+    position: relative
+  &__wrapper
+    padding-top: 40px
+    display: block 
+  &__button
+    border: none
+    background: none
+    &-prev, &-next
+      display: block
+      position: absolute
+      top: 50% 
+      transform: translateY(50%)
+    &-next
+      left: auto
+      right:-30px
+  &__item
+    display: flex
+    justify-content: space-between
+    width: 80%
+    height: 100%
+    margin: 0 auto
+    a
+      display: block
+      width: 50%
+    img
+      display: block 
+      width: 400px     
+      height: 200px
+      object-fit: cover
+    &_wrapper
+      margin-bottom: 30px
+      margin-left: 60px
+    &_name
+      font-size: 24px
+      font-weight: 700
+      margin: 20px 0
+      @include before_circle_portfolio
+    &_descr
+      font-size: 14px
+      font-weight: 700
+      line-height: 17px
+
+
+
+    

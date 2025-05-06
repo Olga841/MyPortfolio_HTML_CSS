@@ -1,305 +1,709 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/css-reset-and-normalize@2.3.6/css/reset-and-normalize.min.css"
-          rel="stylesheet">
-    <link rel="icon" href="icons/favicon.png">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/css-reset-and-normalize@2.3.6/css/reset-and-normalize.min.css"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="icons/favicon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
     <title>Olga Alekseeva</title>
-</head>
-<body>
-<aside class="sidepanel">
-    <a href="#" class="sidepanel__link"><img src="icons/socials/Facebook.svg" alt="facebook"></a>
-    <a href="#" class="sidepanel__link"><img src="icons/socials/Instagram.svg" alt="instagram"></a>
-    <a href="#" class="sidepanel__link"><img src="icons/socials/Github.svg" alt="github"></a>
-    <div class="sidepanel__divider"></div>
-    <div class="sidepanel__text"><span>Социальные сети</span></div>
-</aside>
-<section class="promo">
-    <div class="container promo__container">
+  </head>
+  <body>
+    <aside class="sidepanel">
+      <a href="#" class="sidepanel__link"
+        ><img src="icons/socials/Facebook.svg" alt="facebook"
+      /></a>
+      <a href="#" class="sidepanel__link"
+        ><img src="icons/socials/Instagram.svg" alt="instagram"
+      /></a>
+      <a href="#" class="sidepanel__link"
+        ><img src="icons/socials/Github.svg" alt="github"
+      /></a>
+      <div class="sidepanel__divider"></div>
+      <div class="sidepanel__text"><span>Социальные сети</span></div>
+    </aside>
+    <section class="promo">
+      <div class="container promo__container">
         <div class="promo__descr">
-            <h2 class="promo__subtitle subtitle">Меня зовут Ольга Алексеева</h2>
-            <h1 class="title promo__title">Я web-разработчик и web-дизайнер</h1>
-            <button class="promo__button button button_active">Портфолио</button>
-            <button class="promo__button button">Про меня</button>
+          <h2 class="promo__subtitle subtitle">Меня зовут Ольга Алексеева</h2>
+          <h1 class="title promo__title">Я web-разработчик и web-дизайнер</h1>
+          <button class="promo__button button button_active">
+            <a href="#portfolio">Портфолио</a>
+          </button>
+          <button class="promo__button button">
+            <a href="#about">Про меня</a>
+          </button>
         </div>
-    </div>
-</section>
-<section class="about">
-    <div class="container">
+      </div>
+    </section>
+    <section class="about" id="about">
+      <div class="container">
         <div class="about__wrapper">
-            <img src="images/fotor_2023-3-20_21_56_36.jpg" alt="me" class="about__img">
-            <div class="about__descr">
-                <div class="about__subtitle subtitle">Про меня</div>
-                <h2 class="about__title title">Меня зовут Ольга</h2>
-                <div class="about__text">Здравствуйте! <br> Я c удовольствием помогу найти красивое и эффективное
-                    решение исходя из Ваших задач! В мою компетенцию входят: проектировка различных видов сайтов и
-                    приложений так, чтобы помочь Вашим пользователям
-                    добиться своей цели — купить Ваш товар, узнать новости или пообщаться с друзьями.
-                </div>
-                <ul class="about__list">
-                    <li class="about__item">
-                        <div class="about__item_img-container">
-                            <img src="icons/experience/web_development.svg" alt="web_development"
-                                 class="about__item_img">
-                        </div>
-                        <div class="about__item_descr">
-                            <div class="about__item_header">Web-разработка</div>
-                            <div class="about__item_text">
-                                <ul>Создание:
-                                    <li>- landing-page</li>
-                                    <li>- корпоративные сайты</li>
-                                    <li>- интернет-магазины</li>
-                                    <li>- сервисы и приложения</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="about__item">
-                        <div class="about__item_img-container">
-                            <img src="icons/experience/mobile_dev.svg" alt="mobile" class="about__item_img">
-                        </div>
-                        <div class="about__item_descr">
-                            <div class="about__item_header">Разработка приложений</div>
-                            <div class="about__item_text">Создание одностраничных, иерархически структурированных web-
-                                приложений
-                            </div>
-                        </div>
-                    </li>
-                    <li class="about__item">
-                        <div class="about__item_img-container">
-                            <img src="icons/experience/design.svg" alt="design">
-                        </div>
-                        <div class="about__item_descr">
-                            <div class="about__item_header">UI/UX Design</div>
-                            <div class="about__item_text">
-                                <ul>Создание дизайна сайтов и приложений:
-                                    <li>- UI/UX-дизайн</li>
-                                    <li>- брендинг</li>
-                                    <li>- дизайн landing-page</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
+          <img
+            src="images/fotor_2023-3-20_21_56_36.jpg"
+            alt="me"
+            class="about__img"
+          />
+          <div class="about__descr">
+            <div class="about__subtitle subtitle">Про меня</div>
+            <h2 class="about__title title">Меня зовут Ольга</h2>
+            <div class="about__text">
+              Здравствуйте! <br />
+              Я c удовольствием помогу найти красивое и эффективное решение
+              исходя из Ваших задач! В мою компетенцию входят: проектировка
+              различных видов сайтов и приложений так, чтобы помочь Вашим
+              пользователям добиться своей цели — купить Ваш товар, узнать
+              новости или пообщаться с друзьями.
             </div>
+            <ul class="about__list">
+              <li class="about__item">
+                <div class="about__item_img-container">
+                  <img
+                    src="icons/experience/web_development.svg"
+                    alt="web_development"
+                    class="about__item_img"
+                  />
+                </div>
+                <div class="about__item_descr">
+                  <div class="about__item_header">Web-разработка</div>
+                  <div class="about__item_text">
+                    <ul>
+                      Создание:
+                      <li>- landing-page</li>
+                      <li>- корпоративные сайты</li>
+                      <li>- интернет-магазины</li>
+                      <li>- сервисы и приложения</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+              <li class="about__item">
+                <div class="about__item_img-container">
+                  <img
+                    src="icons/experience/mobile_dev.svg"
+                    alt="mobile"
+                    class="about__item_img"
+                  />
+                </div>
+                <div class="about__item_descr">
+                  <div class="about__item_header">Разработка приложений</div>
+                  <div class="about__item_text">
+                    Создание одностраничных, иерархически структурированных web-
+                    приложений
+                  </div>
+                </div>
+              </li>
+              <li class="about__item">
+                <div class="about__item_img-container">
+                  <img src="icons/experience/design.svg" alt="design" />
+                </div>
+                <div class="about__item_descr">
+                  <div class="about__item_header">UI/UX Design</div>
+                  <div class="about__item_text">
+                    <ul>
+                      Создание дизайна сайтов и приложений:
+                      <li>- UI/UX-дизайн</li>
+                      <li>- брендинг</li>
+                      <li>- дизайн landing-page</li>
+                    </ul>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-</section>
-<section class="experience">
-    <div class="container">
+      </div>
+    </section>
+    <section class="experience">
+      <div class="container">
         <div class="center__subtitle experience__subtitle">Опыт</div>
         <h2 class="center__title experience__title">Чем я буду полезна</h2>
         <div class="experience__wrapper">
-            <div class="experience__column">
-                <div class="column-title experience__column-title">Образование</div>
-                <ul class="experience__column-ul">
-                    <li class="experience__column-li">
-                        <div class="experience__item">
-                            <div class="experience__item-head">
-                                <div class="experience__item-icon">
-                                    <img src="icons/experience/University.svg" alt="university">
-                                </div>
-                                <h4 class="experience__item-title">Военная академия Республики Беларусь</h4>
-                                <div class="experience__item-location">Диплом с отличием | (2010 - 2015)</div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="experience__column-li">
-                        <div class="experience__item">
-                            <div class="experience__item-head">
-                                <div class="experience__item-icon">
-                                    <img src="icons/experience/Courses.svg" alt="university">
-                                </div>
-                                <h4 class="experience__item-title">UDEMY</h4>
-                                <div class="experience__item-location">Курс WEB-разработчик| (2022 - 2023)</div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
-            <div class="experience__column">
-                <div class="column-title experience__column-title">Образование</div>
-                <ul>
-                    <li>
-                        <div class="experience__item">
-                            <div class="experience__item-head">
-                                <div class="experience__item-icon">
-                                    <img src="icons/experience/Developer.svg" alt="university">
-                                </div>
-                                <h4 class="experience__item-title">IT-incubator</h4>
-                                <div class="experience__item-location">Frontend-разработка | (2022 - 2023)</div>
-                            </div>
-                        </div>
-                    </li>
-                    <li>
-                        <div class="experience__item">
-                            <div class="experience__item-head">
-                                <div class="experience__item-icon">
-                                    <img src="icons/experience/designer.svg" alt="university">
-                                </div>
-                                <h4 class="experience__item-title">UDEMY</h4>
-                                <div class="experience__item-location">Курс UX/UI дизайн | (2023)</div>
-                            </div>
-                        </div>
-                    </li>
-                    <li class="experience__column-li">
-                        <div class="experience__item">
-                            <div class="experience__item-head">
-                                <div class="experience__item-icon">
-                                    <img src="icons/experience/University.svg" alt="university">
-                                </div>
-                                <h4 class="experience__item-title">UDEMY</h4>
-                                <div class="experience__item-location">Посадка верстки на Wordpress | (2025)</div>
-                            </div>
-                        </div>
-                    </li>
-                </ul>
-            </div>
+          <div class="experience__column">
+            <div class="column-title experience__column-title">Образование</div>
+            <ul class="experience__column-ul">
+              <li class="experience__column-li">
+                <div class="experience__item">
+                  <div class="experience__item-head">
+                    <div class="experience__item-icon">
+                      <img
+                        src="icons/experience/University.svg"
+                        alt="university"
+                      />
+                    </div>
+                    <h4 class="experience__item-title">
+                      Военная академия Республики Беларусь
+                    </h4>
+                    <div class="experience__item-location">
+                      Диплом с отличием | (2010 - 2015)
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="experience__column-li">
+                <div class="experience__item">
+                  <div class="experience__item-head">
+                    <div class="experience__item-icon">
+                      <img
+                        src="icons/experience/Courses.svg"
+                        alt="university"
+                      />
+                    </div>
+                    <h4 class="experience__item-title">UDEMY</h4>
+                    <div class="experience__item-location">
+                      Курс WEB-разработчик| (2022 - 2023)
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="experience__item">
+                  <div class="experience__item-head">
+                    <div class="experience__item-icon">
+                      <img
+                        src="icons/experience/Developer.svg"
+                        alt="university"
+                      />
+                    </div>
+                    <h4 class="experience__item-title">IT-incubator</h4>
+                    <div class="experience__item-location">
+                      Frontend-разработка | (2022 - 2023)
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="experience__item">
+                  <div class="experience__item-head">
+                    <div class="experience__item-icon">
+                      <img
+                        src="icons/experience/designer.svg"
+                        alt="university"
+                      />
+                    </div>
+                    <h4 class="experience__item-title">UDEMY</h4>
+                    <div class="experience__item-location">
+                      Курс UX/UI дизайн | (2023)
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="experience__column-li">
+                <div class="experience__item">
+                  <div class="experience__item-head">
+                    <div class="experience__item-icon">
+                      <img
+                        src="icons/experience/designer.svg"
+                        alt="university"
+                      />
+                    </div>
+                    <h4 class="experience__item-title">UDEMY</h4>
+                    <div class="experience__item-location">
+                      Посадка верстки на Wordpress | (2025)
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+          <div class="experience__column">
+            <div class="column-title experience__column-title">Опыт работы</div>
+            <ul>
+              <li>
+                <div class="experience__item">
+                  <div class="experience__item-head">
+                    <div class="experience__item-icon">
+                      <img
+                        src="icons/experience/Developer.svg"
+                        alt="university"
+                      />
+                    </div>
+                    <h4 class="experience__item-title">Freelance</h4>
+                    <div class="experience__item-location">
+                      Frontend-разработчик/Верстальщик | (2023 - 2024)
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li>
+                <div class="experience__item">
+                  <div class="experience__item-head">
+                    <div class="experience__item-icon">
+                      <img
+                        src="icons/experience/Developer.svg"
+                        alt="university"
+                      />
+                    </div>
+                    <h4 class="experience__item-title">Супер.ВЕБ</h4>
+                    <div class="experience__item-location">
+                      Frontend-разработчик/Верстальщик | (2024 - 2025)
+                    </div>
+                  </div>
+                </div>
+              </li>
+              <li class="experience__column-li">
+                <div class="experience__item">
+                  <div class="experience__item-head">
+                    <div class="experience__item-icon">
+                      <img
+                        src="icons/experience/Developer.svg"
+                        alt="university"
+                      />
+                    </div>
+                    <h4 class="experience__item-title">Freelance</h4>
+                    <div class="experience__item-location">
+                      Frontend-разработчик/Верстальщик | (2025)
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+          </div>
         </div>
-    </div>
-</section>
-<section class="skills">
-    <div class="container">
+      </div>
+    </section>
+    <section class="skills">
+      <div class="container">
         <div class="center__subtitle">Навыки</div>
         <div class="center__title title">Что я использую в работе</div>
         <div class="skills__wrapper">
-            <div class="skills__item">
-                <div class="skills__item-icon">
-                    <img src="images/skills/html5.svg" alt="html">
-                </div>
-                <div class="skills__item-header">HTML5</div>
-                <div class="skills__item-desc">Именно он создает каркас вашего сайта или приложения, а пятая версия
-                    позволит мне создавать более SEO-оптимизированную структуру вашего продукта
-                </div>
+          <div class="skills__item">
+            <div class="skills__item-icon">
+              <img src="images/skills/html5.svg" alt="html" />
             </div>
-            <div class="skills__item">
-                <div class="skills__item-icon">
-                    <img src="images/skills/css3.svg" alt="css3">
-                </div>
-                <div class="skills__item-header">CSS3</div>
-                <div class="skills__item-desc">Этот язык стилей позволяет мне создавать абсолютно любой внешний вид
-                    вашего сайта или приложения. Все ограничивается только вашей фантазией!
-                </div>
+            <div class="skills__item-header">HTML5</div>
+            <div class="skills__item-desc">
+              Именно он создает каркас вашего сайта или приложения, а пятая
+              версия позволит мне создавать более SEO-оптимизированную структуру
+              вашего продукта
             </div>
-            <div class="skills__item">
-                <div class="skills__item-icon">
-                    <img src="images/skills/JS.svg" alt="js">
-                </div>
-                <div class="skills__item-header">Java Script</div>
-                <div class="skills__item-desc">Этот язык программирования позволяет оживить все что угодно:
-                    слайдеры, окна, подсказки, вкладки, получение данных от сервера и многое другое
-                </div>
+          </div>
+          <div class="skills__item">
+            <div class="skills__item-icon">
+              <img src="images/skills/css3.svg" alt="css3" />
             </div>
-            <div class="skills__item">
-                <div class="skills__item-icon">
-                    <img src="images/skills/React.svg" alt="react">
-                </div>
-                <div class="skills__item-header">React</div>
-                <div class="skills__item-desc">Эта библиотека позволяет создавать web-приложения. Мы можем создать
-                    максимально интерактивный продукт именно под ваши цели
-                </div>
+            <div class="skills__item-header">CSS3</div>
+            <div class="skills__item-desc">
+              Этот язык стилей позволяет мне создавать абсолютно любой внешний
+              вид вашего сайта или приложения. Все ограничивается только вашей
+              фантазией!
             </div>
-            <div class="skills__item">
-                <div class="skills__item-icon">
-                    <img src="images/skills/logos_figma.svg" alt="react">
-                </div>
-                <div class="skills__item-header">Figma</div>
-                <div class="skills__item-desc">Это облачный инструмент для проектирования и прототипирования, который
-                    позволяет создавать и работать над дизайном Вашего веб-сайта, мобильного приложения
-                    и других цифровых продуктов
-                </div>
+          </div>
+          <div class="skills__item">
+            <div class="skills__item-icon">
+              <img src="images/skills/JS.svg" alt="js" />
             </div>
+            <div class="skills__item-header">Java Script</div>
+            <div class="skills__item-desc">
+              Этот язык программирования позволяет оживить все что угодно:
+              слайдеры, окна, подсказки, вкладки, получение данных от сервера и
+              многое другое
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="skills__item-icon">
+              <img src="images/skills/React.svg" alt="react" />
+            </div>
+            <div class="skills__item-header">React</div>
+            <div class="skills__item-desc">
+              Эта библиотека позволяет создавать web-приложения. Мы можем
+              создать максимально интерактивный продукт именно под ваши цели
+            </div>
+          </div>
+          <div class="skills__item">
+            <div class="skills__item-icon">
+              <img src="images/skills/logos_figma.svg" alt="react" />
+            </div>
+            <div class="skills__item-header">Figma</div>
+            <div class="skills__item-desc">
+              Это облачный инструмент для проектирования и прототипирования,
+              который позволяет создавать и работать над дизайном Вашего
+              веб-сайта, мобильного приложения и других цифровых продуктов
+            </div>
+          </div>
         </div>
-    </div>
-</section>
-<section class="scales">
-    <div class="container">
+      </div>
+    </section>
+    <section class="scales">
+      <div class="container">
         <div class="scales__wrapper">
-            <div class="scales__list">
-                <div class="scales__item">
-                    <div class="scales__desc">
-                        <div class="scales__subtitle subtitle">Создание сайтов</div>
-                        <div class="scales__value">100%</div>
-                    </div>
-                    <div class="scales__scale">
-                        <div class="scales__magnitude scales__magnitude_1"></div>
-                    </div>
+          <div class="scales__list">
+            <div class="scales__item">
+              <div class="scales__desc">
+                <div class="scales__subtitle subtitle">Создание сайтов</div>
+                <div class="scales__value">100%</div>
+              </div>
+              <div class="scales__scale">
+                <div class="scales__magnitude scales__magnitude_1"></div>
+              </div>
+            </div>
+            <div class="scales__item">
+              <div class="scales__desc">
+                <div class="scales__subtitle subtitle">Создание приложений</div>
+                <div class="scales__value">85%</div>
+              </div>
+              <div class="scales__scale">
+                <div class="scale__bg"></div>
+                <div class="scales__magnitude scales__magnitude_2"></div>
+              </div>
+            </div>
+            <div class="scales__item">
+              <div class="scales__desc">
+                <div class="scales__subtitle subtitle">Работа с графикой</div>
+                <div class="scales__value">90%</div>
+              </div>
+              <div class="scales__scale">
+                <div class="scales__magnitude scales__magnitude_3"></div>
+              </div>
+            </div>
+            <div class="scales__item">
+              <div class="scales__desc">
+                <div class="scales__subtitle subtitle">Креативность</div>
+                <div class="scales__value">80%</div>
+              </div>
+              <div class="scales__scale">
+                <div class="scales__magnitude scales__magnitude_4"></div>
+              </div>
+            </div>
+            <div class="scales__item">
+              <div class="scales__desc">
+                <div class="scales__subtitle subtitle">Создание дизайна</div>
+                <div class="scales__value">100%</div>
+              </div>
+              <div class="scales__scale">
+                <div class="scales__magnitude scales__magnitude_5"></div>
+              </div>
+            </div>
+            <div class="scales__item">
+              <div class="scales__desc">
+                <div class="scales__subtitle subtitle">Soft skills</div>
+                <div class="scales__value">95%</div>
+              </div>
+              <div class="scales__scale">
+                <div class="scale__bg"></div>
+                <div class="scales__magnitude scales__magnitude_6"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <div class="portfolio__container">
+          <div class="center__subtitle">Портфолио</div>
+          <div class="center__title title">Мои работы</div>
+          <button class="portfolio__button portfolio__button-prev">
+            <img src="icons/leftarrow.svg" alt="previous" />
+          </button>
+          <div class="portfolio__wrapper">
+            <div class="portfolio__item">
+              <a
+                href="https://olga841.github.io/Uber_bootstrap/"
+                class="portfolio__item_1"
+              >
+                <img src="images/portfolio/uber.jpg" alt="uber" />
+              </a>
+              <div class="portfolio__item_wrapper">
+                <div class="portfolio__item_name">Uber</div>
+                <div class="portfolio__item_descr">
+                  Создание лендинга для Uber с интуитивно понятным интерфейсом,
+                  плавной анимацией и высокой производительностью. Лендинг
+                  эффективно презентует сервис, привлекает новых пользователей и
+                  обеспечивает удобную навигацию.
                 </div>
-                <div class="scales__item">
-                    <div class="scales__desc">
-                        <div class="scales__subtitle subtitle">Создание приложений</div>
-                        <div class="scales__value">85%</div>
-                    </div>
-                    <div class="scales__scale">
-                        <div class="scale__bg"></div>
-                        <div class="scales__magnitude scales__magnitude_2"></div>
-                    </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <a
+                href="https://olga841.github.io/pulse/"
+                class="portfolio__item_2"
+              >
+                <img src="images/portfolio/pulse.jpg" alt="pulse" />
+              </a>
+              <div class="portfolio__item_wrapper">
+                <div class="portfolio__item_name">
+                  Интернет-магазин пульсометров
                 </div>
-                <div class="scales__item">
-                    <div class="scales__desc">
-                        <div class="scales__subtitle subtitle">Работа с графикой</div>
-                        <div class="scales__value">90%</div>
-                    </div>
-                    <div class="scales__scale">
-                        <div class="scales__magnitude scales__magnitude_3"></div>
-                    </div>
+                <div class="portfolio__item_descr">
+                  Создание высококонверсийного лендинга для интернет-магазина,
+                  специализирующегося на продаже пульсометров и кардиотрекеров.
+                  Основная цель — привлечь клиентов, заинтересованных в
+                  спортивных гаджетах, медицинском контроле состояния и
+                  профессиональном мониторинге сердечного ритма.
                 </div>
-                <div class="scales__item">
-                    <div class="scales__desc">
-                        <div class="scales__subtitle subtitle">Креативность</div>
-                        <div class="scales__value">80%</div>
-                    </div>
-                    <div class="scales__scale">
-                        <div class="scales__magnitude scales__magnitude_4"></div>
-                    </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <a href="images/portfolio/asp.jpg" class="portfolio__item_3">
+                <img src="images/portfolio/asp.jpg" alt="asp" />
+              </a>
+              <div class="portfolio__item_wrapper">
+                <div class="portfolio__item_name">
+                  Сервис автоматического постинга в социальных сетях
                 </div>
-                <div class="scales__item">
-                    <div class="scales__desc">
-                        <div class="scales__subtitle subtitle">Создание дизайна</div>
-                        <div class="scales__value">100%</div>
-                    </div>
-                    <div class="scales__scale">
-                        <div class="scales__magnitude scales__magnitude_5"></div>
-                    </div>
+                <div class="portfolio__item_descr">
+                  Создание стильного, удобного и высококонверсийного дизайна
+                  лендинга для сервиса автоматического постинга, который
+                  привлечет пользователей и эффективно презентует ключевые
+                  возможности продукта.
                 </div>
-                <div class="scales__item">
-                    <div class="scales__desc">
-                        <div class="scales__subtitle subtitle">Soft skills</div>
-                        <div class="scales__value">95%</div>
-                    </div>
-                    <div class="scales__scale">
-                        <div class="scale__bg"></div>
-                        <div class="scales__magnitude scales__magnitude_6"></div>
-                    </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <a
+                href="https://olga841.github.io/ProjectWordpress/"
+                class="portfolio__item_4"
+              >
+                <img src="images/portfolio/wordpress.jpg" alt="wordpress" />
+              </a>
+              <div class="portfolio__item_wrapper">
+                <div class="portfolio__item_name">Школа Wordpress</div>
+                <div class="portfolio__item_descr">
+                  Создание профессиональной, адаптивной и легкой в восприятии
+                  верстки лендинга для школы обучения WordPress. Лендинг быстро
+                  загружаемый, удобный для пользователя и соответствует
+                  современным стандартам веб-разработки.
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <a
+                href="https://olga841.github.io/prengi/"
+                class="portfolio__item_5"
+              >
+                <img src="images/portfolio/prengi.jpg" alt="prengi" />
+              </a>
+              <div class="portfolio__item_wrapper">
+                <div class="portfolio__item_name">Prengi</div>
+                <div class="portfolio__item_descr">
+                  Создание удобного, адаптивного и функционального лендинга для
+                  компании, предоставляющей услуги бизнес-помощи. Лендинг
+                  демонстрирует надежность, профессионализм и ключевые
+                  преимущества сервиса, а также обеспечивает удобную навигацию
+                  для потенциальных клиентов.
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+                <a href="images/portfolio/hero.jpg">
+                  <img src="images/portfolio/hero.jpg" alt="hero" />
+                </a>
+                <div class="portfolio__item_wrapper">
+                  <div class="portfolio__item_name">
+                    Интернет-магазин дизайнерской мебели (главная страница)
+                  </div>
+                  <div class="portfolio__item_descr">
+                    Создание элегантного, адаптивного и минисмалистичного дизайна
+                    для интернет-магазина мебели, обеспечивающего удобный
+                    пользовательский опыт и высокую конверсию.
+                  </div>
                 </div>
             </div>
+            <div class="portfolio__item">
+                <a href="images/portfolio/hero.jpg">
+                  <img src="images/portfolio/goods-tile.jpg" alt="hero" />
+                </a>
+                <div class="portfolio__item_wrapper">
+                  <div class="portfolio__item_name">
+                    Интернет-магазин дизайнерской мебели (страница товаров)
+                  </div>
+                  <div class="portfolio__item_descr">
+                    Создание элегантного, адаптивного и минисмалистичного дизайна
+                    для интернет-магазина мебели, обеспечивающего удобный
+                    пользовательский опыт и высокую конверсию.
+                  </div>
+                </div>
+            </div>
+            <div class="portfolio__item">
+                <a href="images/portfolio/hero.jpg">
+                  <img src="images/portfolio/goods_card_reviews.jpg" alt="hero" />
+                </a>
+                <div class="portfolio__item_wrapper">
+                  <div class="portfolio__item_name">
+                    Интернет-магазин дизайнерской мебели (страница товара)
+                  </div>
+                  <div class="portfolio__item_descr">
+                    Создание элегантного, адаптивного и минисмалистичного дизайна
+                    для интернет-магазина мебели, обеспечивающего удобный
+                    пользовательский опыт и высокую конверсию.
+                  </div>
+                </div>
+            </div>
+            <div class="portfolio__item">
+              <a href="images/portfolio/hero.jpg" >
+                <img src="images/portfolio/cart.jpg" alt="hero" />
+              </a>
+              <div class="portfolio__item_wrapper">
+                <div class="portfolio__item_name">
+                  Интернет-магазин дизайнерской мебели (корзина)
+                </div>
+                <div class="portfolio__item_descr">
+                  Создание элегантного, адаптивного и минисмалистичного дизайна
+                  для интернет-магазина мебели, обеспечивающего удобный
+                  пользовательский опыт и высокую конверсию.
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+                <a href="images/portfolio/hero.jpg" class="portfolio__item_6">
+                  <img src="images/portfolio/payment.jpg" alt="hero" />
+                </a>
+                <div class="portfolio__item_wrapper">
+                  <div class="portfolio__item_name">
+                    Интернет-магазин дизайнерской мебели (страница оплаты)
+                  </div>
+                  <div class="portfolio__item_descr">
+                    Создание элегантного, адаптивного и минисмалистичного дизайна
+                    для интернет-магазина мебели, обеспечивающего удобный
+                    пользовательский опыт и высокую конверсию.
+                  </div>
+                </div>
+            </div>
+            <div class="portfolio__item">
+              <a href="images/portfolio/amethyst.jpg" class="portfolio__item_7">
+                <img src="images/portfolio/amethyst.jpg" alt="amethyst" />
+              </a>
+              <div class="portfolio__item_wrapper">
+                <div class="portfolio__item_name">Amethyst</div>
+                <div class="portfolio__item_descr">
+                  Создание фронтенд-части специализированной социальной сети,
+                  объединяющей людей, увлекающихся эзотерикой, духовным
+                  развитием, мистикой и альтернативными практиками. Платформа
+                  будет служить пространством для обмена знаниями, обсуждения
+                  теорий, поиска единомышленников и профессионального роста для
+                  практикующих специалистов. (стартап-проект)
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <a
+                href="images/portfolio/telegram_ads.jpg"
+                class="portfolio__item_8"
+              >
+                <img src="images/portfolio/telegram_ads.jpg" alt="ads" />
+              </a>
+              <div class="portfolio__item_wrapper">
+                <div class="portfolio__item_name">Telegram ADS</div>
+                <div class="portfolio__item_descr">
+                  Создание дизайна лендинга сервиса автоматического постинга -
+                  предназначен для упрощения и оптимизации публикаций в
+                  социальных сетях. Он помогает пользователям планировать
+                  контент, управлять несколькими аккаунтами и анализировать
+                  эффективность постов, что особенно полезно для бизнеса,
+                  маркетологов и контент-менеджеров.
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <a
+                href="images/portfolio/unique_umain_page.jpg"
+                class="portfolio__item_9"
+              >
+                <img
+                  src="images/portfolio/unique_umain_page.jpg"
+                  alt="uniqueu"
+                />
+              </a>
+              <div class="portfolio__item_wrapper">
+                <div class="portfolio__item_name">
+                  Интернет-магазин косметики (главная страница)
+                </div>
+                <div class="portfolio__item_descr">
+                  Создание удобного, функционального и современного
+                  интернет-магазина, который позволит пользователям легко
+                  находить, выбирать и приобретать товары. Платформа будет
+                  ориентирована на интуитивный интерфейс, адаптивный дизайн и
+                  эффективные инструменты управления заказами.
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <a href="images/portfolio/unique_umain_page.jpg">
+                <img
+                  src="images/portfolio/unique_ugoods_list.jpg"
+                  alt="uniqueu"
+                />
+              </a>
+              <div class="portfolio__item_wrapper">
+                <div class="portfolio__item_name">
+                  Интернет-магазин косметики (страница товаров)
+                </div>
+                <div class="portfolio__item_descr">
+                  Создание удобного, функционального и современного
+                  интернет-магазина, который позволит пользователям легко
+                  находить, выбирать и приобретать товары. Платформа будет
+                  ориентирована на интуитивный интерфейс, адаптивный дизайн и
+                  эффективные инструменты управления заказами.
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <img src="images/portfolio/unique_ucart.jpg" alt="uniqueu" />
+              <div class="portfolio__item_wrapper">
+                <div class="portfolio__item_name">
+                  Интернет-магазин косметики (страница корзины)
+                </div>
+                <div class="portfolio__item_descr">
+                  Создание удобного, функционального и современного
+                  интернет-магазина, который позволит пользователям легко
+                  находить, выбирать и приобретать товары. Платформа будет
+                  ориентирована на интуитивный интерфейс, адаптивный дизайн и
+                  эффективные инструменты управления заказами.
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <img
+                src="images/portfolio/unique_ucard_characteristics.jpg"
+                alt="uniqueu"
+              />
+              <div class="portfolio__item_wrapper">
+                <div class="portfolio__item_name">
+                  Интернет-магазин косметики (страница товара)
+                </div>
+                <div class="portfolio__item_descr">
+                  Создание удобного, функционального и современного
+                  интернет-магазина, который позволит пользователям легко
+                  находить, выбирать и приобретать товары. Платформа будет
+                  ориентирована на интуитивный интерфейс, адаптивный дизайн и
+                  эффективные инструменты управления заказами.
+                </div>
+              </div>
+            </div>
+            <div class="portfolio__item">
+              <a href="https://olga841.github.io/1/" class="portfolio__item_10">
+                <img src="images/portfolio/lorem.jpg" alt="lorem" />
+              </a>
+              <div class="portfolio__item_wrapper">
+                <div class="portfolio__item_name">
+                  Агентство по продаже элитной недвижимости
+                </div>
+                <div class="portfolio__item_descr">
+                  Создание стильного, информативного и привлекательного лендинга
+                  для агентства по продаже элитной недвижимости. Основная задача
+                  — подчеркнуть престижность объектов, доверие к компании и
+                  простоту взаимодействия с клиентами.
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="portfolio__button portfolio__button-next">
+            <img src="icons/rightarrow.svg" alt="next" />
+          </button>
         </div>
-    </div>
-</section>
-<section class="portfolio">
-    <div class="container">
-        <div class="center__subtitle">Портфолио</div>
-        <div class="center__title title">Мои работы</div>
-        <div class="portfolio__wrapper">
-            <div class="portfolio__item portfolio__item_1"><a href="https://olga841.github.io/Uber_bootstrap/"></a></div>
-            <div class="portfolio__item portfolio__item_2"><a href="https://olga841.github.io/pulse/"></a></div>
-            <div class="portfolio__item portfolio__item_3"><a href="images/portfolio/asp.jpg"></a></div>
-            <div class="portfolio__item portfolio__item_4"><a href="https://olga841.github.io/ProjectWordpress/"></a></div>
-            <div class="portfolio__item portfolio__item_5"><a href="https://olga841.github.io/prengi/"></a></div>
-            <div class="portfolio__item portfolio__item_6"><a href="images/portfolio/hero.jpg"></a></div>
-            <div class="portfolio__item portfolio__item_7"><a href="images/portfolio/amethyst.jpg"></a></div>
-            <div class="portfolio__item portfolio__item_8"><a href="images/portfolio/telegram_ads.jpg"></a></div>
-            <div class="portfolio__item portfolio__item_9"><a href="images/portfolio/unique_umain_page.jpg"></a></div>
-        </div>
-    </div>
-</section>
-<!-- <section class="price">
+      </div>
+    </section>
+    <!-- <section class="price">
     <div class="container">
         <div class="center__subtitle price__subtitle">Прайс-лист</div>
         <div class="price__wrapper">
@@ -334,40 +738,96 @@
         </div>
     </div>
 </section> -->
-<section class="contacts">
-    <div class="container">
+    <section class="contacts">
+      <div class="container">
         <div class="contacts__wrapper">
-            <img src="images/fotor_2023-3-19_22_3_37.jpg" alt="photo" class="contacts__img"/>
-            <div class="contacts__desc">
-                <div class="subtitle about__subtitle">Контакты</div>
-                <div class="title about__title contacts__title">Свяжитесь со мной</div>
-                <div class="contacts__text">Любым удобным для вас способом:</div>
-                <div class="contacts__socials">
-                    <div class="cotacts__socials-icon"><img src="icons/contacts/Instagram.svg" alt="Instagram"></div>
-                    <div class="cotacts__socials-icon"><img src="icons/contacts/Telegram.svg" alt="Telegram"></div>
-                    <div class="cotacts__socials-icon"><img src="icons/contacts/Facebook.svg" alt="Facebook"></div>
-                </div>
-                <div class="contacts__text">Или оставьте ваши данные и я сама вам напишу:</div>
-                <form action="input" class="contacts__form">
-                    <div class="contacts__input_wrapper_container">
-                        <div class="contacts__input_wrapper">
-                            <label for="name" class="contacts__label">Ваше имя</label>
-                            <input type="text" name="name" class="contacts__input">
-                        </div>
-                        <div class="contacts__input_wrapper">
-                            <label for="email" class="contacts__label">Ваш email</label>
-                            <input type="email" name="email" class="contacts__input">
-                        </div>
-                    </div>
-                    <div class="contacts__input_wrapper">
-                        <label for="email" class="contacts__label">Ваше сообщение</label>
-                        <textarea type="text" class="contacts__textarea"></textarea>
-                    </div>
-                </form>
-                <button class="button button_active contacts__button">Отправить сообщение</button>
+          <img
+            src="images/fotor_2023-3-19_22_3_37.jpg"
+            alt="photo"
+            class="contacts__img"
+          />
+          <div class="contacts__desc">
+            <div class="subtitle about__subtitle">Контакты</div>
+            <div class="title about__title contacts__title">
+              Свяжитесь со мной
             </div>
+            <div class="contacts__text">Любым удобным для вас способом:</div>
+            <div class="contacts__socials">
+              <div class="cotacts__socials-icon">
+                <img src="icons/contacts/Instagram.svg" alt="Instagram" />
+              </div>
+              <div class="cotacts__socials-icon">
+                <img src="icons/contacts/Telegram.svg" alt="Telegram" />
+              </div>
+              <div class="cotacts__socials-icon">
+                <img src="icons/contacts/Facebook.svg" alt="Facebook" />
+              </div>
+            </div>
+            <div class="contacts__text">
+              Или оставьте ваши данные и я сама вам напишу:
+            </div>
+            <form action="input" class="contacts__form">
+              <div class="contacts__input_wrapper_container">
+                <div class="contacts__input_wrapper">
+                  <label for="name" class="contacts__label">Ваше имя</label>
+                  <input type="text" name="name" class="contacts__input" />
+                </div>
+                <div class="contacts__input_wrapper">
+                  <label for="email" class="contacts__label">Ваш email</label>
+                  <input type="email" name="email" class="contacts__input" />
+                </div>
+              </div>
+              <div class="contacts__input_wrapper">
+                <label for="email" class="contacts__label"
+                  >Ваше сообщение</label
+                >
+                <textarea type="text" class="contacts__textarea"></textarea>
+              </div>
+            </form>
+            <button class="button button_active contacts__button">
+              Отправить сообщение
+            </button>
+          </div>
         </div>
+      </div>
+    </section>
+    <div class="overlay">
+      <div class="modal">
+        <div class="modal__wrapper" id="consultation">
+          <div class="modal__window">
+            <div class="modal__title">Просто заполните форму заявки</div>
+            <div class="modal__subtitle">
+              и я свяжусь с Вами в ближйшее время
+            </div>
+            <form class="feed_form" action="#">
+              <input required placeholder="ваше имя" type="text" />
+              <input required placeholder="ваш телефон" type="number" />
+              <input required placeholder="ваш e-mail" type="email" />
+              <input
+                class="button button_submit"
+                value="ЗАКАЗАТЬ КОНСУЛЬТАЦИЮ"
+                type="submit"
+              />
+            </form>
+          </div>
+          <div class="modal__close">&times</div>
+        </div>
+
+        <div class="modal__wrapper" id="thanks">
+          <div class="modal__window">
+            <div class="modal__title">Спасибо за вашу заявку!</div>
+            <div class="modal__subtitle">
+              Я свяжусь с Вами <br />
+              в ближайшее время!
+            </div>
+          </div>
+          <div class="modal__close">&times</div>
+        </div>
+      </div>
     </div>
-</section>
-</body>
+    <a href="#" class="upscroll">
+      <img src="icons/up.png" alt="up" />
+    </a>
+    <script src="js/index.js"></script>
+  </body>
 </html>
