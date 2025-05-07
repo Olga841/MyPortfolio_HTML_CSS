@@ -1,3 +1,5 @@
+//slider portfolio
+
 const slider = document.querySelectorAll('.portfolio__item'),
       sliderContainer = document.querySelectorAll('.portfolio__wrapper'),
       btnNext = document.querySelector('.portfolio__button-next'),
@@ -33,3 +35,23 @@ btnPrev.addEventListener('click', () => {
     nextSlide(-1);
     
 })
+
+//modal windows
+const modal = document.querySelector('.overlay'),
+      closeModal = document.querySelector('.modal__close'),
+      btnSubmit = document.querySelector('.contacts__button'),
+      inputName = document.querySelector('#name'),
+      inputMessage = document.querySelector('#message'),
+      inputMail = document.querySelector('#mail');
+
+const openModalFunction = () => {
+    modal.style.display = 'block';
+}
+
+const closeModalFunction = () =>  {
+    modal.style.display = 'none';
+}
+
+btnSubmit.addEventListener('click', () => openModalFunction());
+closeModal.addEventListener('click', () => closeModalFunction());
+modal.addEventListener('click', () => closeModalFunction());

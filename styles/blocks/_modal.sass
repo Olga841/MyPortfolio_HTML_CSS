@@ -1,50 +1,47 @@
-.about
-  padding: 120px 0
-  min-height: 840px
-  &__subtitle
-    position: relative
-    padding-left: 10px
-    @include before_circle
-  &__title
-    position: relative
-    margin-top: 20px
-    @include after_line
+.overlay
+  position: fixed
+  top: 0
+  left: 0
+  z-index: 1050
+  display: none
+  width: 100%
+  height: 100%
+  overflow: hidden
+  background-color: rgba(0,0,0,.5)
+.modal
+  position: relative
   &__wrapper
-    display: flex
-  &__img
-    display: block
-    margin-right: 70px
-    width: auto
-    height: 600px
-  &__descr
-    width: 570px
-  &__text
-    margin-top: 30px
-    margin-bottom: 40px
-    font-weight: 500
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    max-width: 500px
+    margin: 150px auto
+    background: #fff
+    padding: 50px
+    border-radius: 10px
+    overflow-y: auto
+  &__title
+    font-size: 24px
+    font-weight: 700
+    margin: 20px 0
+    @include before_circle_modal
+    @include after_line_modal
+  &__subtitle
     font-size: 14px
-    line-height: 21px
-  &__list
-    display: flex
-    flex-wrap: wrap
-    gap: 20px
-  &__item
-    position: relative
-    display: flex
-    width: 260px
-    &_img-container
-      position: relative
-      padding-left: 15px
-      @include before_circle_about
-    &_descr
-      margin-left: 20px
-    &_header
-      font-weight: 700
-      font-size: 14px
-      padding-bottom: 5px
-    &_text
-      font-weight: 500
-      font-size: 12px
-      line-height: 18px
-
+    font-weight: 700
+    line-height: 17px
+  &__close
+    position: absolute
+    top: 8px
+    right: 14px
+    font-size: 30px
+    color: #000
+    opacity: 0.5
+    font-weight:700
+    border: none
+    background-color: transparent
+    cursor: pointer
+    color: $main_color
+ 
 

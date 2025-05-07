@@ -46,12 +46,34 @@
     height: 36px
     border-radius: 100%
 
+@mixin before_circle_modal
+  &:before
+    content: ""
+    position: absolute
+    right: 80%
+    top: 30%
+    z-index: -1
+    background-color: $main_color
+    width: 36px
+    height: 36px
+    border-radius: 100%
+
 @mixin after_line
   &:after
     content: ''
     position: absolute
     top: 110%
     left: 0
+    background-color: $main_color
+    width: 60px
+    height: 4px
+
+@mixin after_line_modal
+  &:after
+    content: ''
+    position: absolute
+    top: 55%
+    right: 75%
     background-color: $main_color
     width: 60px
     height: 4px
